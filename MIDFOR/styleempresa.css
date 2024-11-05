@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header img {
+    position: absolute;
+    left: 45px;
+    width: 95px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.company-list {
+    list-style-type: none;
+    padding: 0;
+}
+.company-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.company-item h2 {
+    margin-top: 0;
+    color: #000000;
+}
+.company-item p {
+    margin: 5px 0;
+}

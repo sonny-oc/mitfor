@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    background-color: #005bb5;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header img {
+    position: static;
+    left: 300px;
+    width: 145px; /* Ajuste o tamanho da logo conforme necessário */
+    height: 150px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+.profile-item {
+    background-color: #fff;
+    width: calc(40% - 10px); /* Ajusta o tamanho para que caibam dois perfis por linha */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.profile-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.profile-item h2 {
+    font-size: 18px;
+    color: #0066cc;
+    margin: 0;
+}
+.profile-item p {
+    font-size: 14px;
+    color: #666;
+}
+@media (max-width: 600px) {
+    .profile-item {
+        width: 100%; /* Ajuste para dispositivos menores */
+    }
+}

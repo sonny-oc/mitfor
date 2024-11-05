@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('eng1.jpg');
+    background-image: url('imagens/eng1.jpg');
             background-size: cover; /* Ajusta a imagem para cobrir a tela */
             background-repeat: no-repeat; /* Impede que a imagem se repita */
             background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
